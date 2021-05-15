@@ -1,0 +1,6 @@
+requests==2.21.0
+altair==4.1.0
+numpy==1.16.4
+pycoingecko==1.4.0
+pandas==1.1.5
+streamlit==0.77.0
