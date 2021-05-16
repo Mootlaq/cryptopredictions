@@ -32,12 +32,12 @@ st.title('Is It a realistic Price? 🚀')
 st.markdown('''
 
 As is the case in every bull market, people are throwing their wishful thinking and call it price predictions. As a result, 
-new investors money are taking these predictions as if they were destined. This tool helps you check if this price prediction is realistic 
-for this market cycle or not. The metric I'm using is simple and easy: **If your price prediction makes that altcoin's market cap equal
-or higher to Ethereum's market cap, then it's not realistic.** This tool isn't going to tell you a price prediction but it will probably tell you to write
+new investors are taking these predictions as if they were destined. This tool helps you check if this price prediction is realistic 
+for this market cycle or not. The metric I'm using is simple and easy: **If your price prediction makes that altcoin's market cap equal to
+or higher than Ethereum's market cap, then it's not realistic.** This tool isn't going to give you a price prediction but it will probably help you write
 off the wrong ones so that you don't invest your life savings in it.
 
-**The way the tool works is simple:** Choose a coin and a projected price using dropdown menus below and the chart will be updated. 
+**The way the tool works is simple:** Choose a coin and a projected price using the dropdown menus below and the chart will be updated. 
 The chart shows Ethereum's market cap, The chosen coin's actual market cap and projected market cap. 
 
 
@@ -86,7 +86,7 @@ st.altair_chart(final_chart, use_container_width=True)
 with st.beta_expander('One more thing'):
     st.info('''
     Don't believe anyone who tells you coin X will reach an astronomic price. A lot of factors need to be considered when making such claims.
-    The first one is a market cap and how it relates to the price so this is what you need to pay attention to this whenever you see a price prediction.
+    The first one is market cap and how it relates to the price so this is what you need to pay attention to whenever you see a price prediction.
     Again, this is not your best tool to 'make' price predictions. But I believe it's a good tool to reject the unrealistic ones. Happy trading!
     ''')
 
