@@ -98,6 +98,6 @@ with st.beta_expander('One more thing'):
 
 with st.beta_expander("About this website"):
     st.markdown('''
-                If you have any feedback, I would love to know! you can contact me on Telegram [here](https://t.me/motlaaq).
+                If you have any feedback, I would love to know! you can contact me on [Telegram](https://t.me/motlaaq) or [Twitter](https://twitter.com/CryptoCamel2).
                 If you like what you see, you can always [buy me a coffee](https://www.buymeacoffee.com/Motlaq)! ''')
                                  
